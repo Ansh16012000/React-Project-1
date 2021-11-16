@@ -8,8 +8,8 @@ export const NavBar = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-6">
-            <div className="row">
-              <ul className="navbar-links">
+            <div className="row one">
+              <ul className="navbar-links ">
 
               <div className="col-xl-6">
               <li className="nav-item">
@@ -27,7 +27,7 @@ export const NavBar = () => {
             </div>
             </div>
           <div className="col-xl-6 ">
-            <ul className="navbarlinks navbar-links ">
+            <ul className="links navbar-links ">
               <li className="nav-item">
                 {" "}
                 <a className="item navhome">Home</a>{" "}

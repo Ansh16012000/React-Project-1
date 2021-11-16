@@ -2,11 +2,10 @@
     background-color: #2B3856;
     color: white;
 }
-/* #home{
-    text-align: center;
-} */
+
 .name{
-    text-align: center  ;
+    /* text-align: center  ; */
+    float: left;
 }
 .navbar-links {
     /* padding: 10px; */
@@ -30,13 +29,14 @@
     margin-bottom: 0;
     margin-left: 38%;
     font-size: 40px;
+    float: right;
 }
 
 .nav-item{
     padding: 10px;
 }
 
-.navbarlinks{
-    float:right;
-    /* margin-left:500px; */
+.links{
+/* float: right; */
+margin-right: 1000px;
 }
