@@ -27,19 +27,29 @@ export const NavBar = () => {
             </div>
             </div>
           <div className="col-xl-6 ">
-            <ul className="links navbar-links ">
-              <li className="nav-item">
-                {" "}
-                <a className="item navhome">Home</a>{" "}
+            <div className="row">
+              <div className="col-xl-10">
+              <ul  className="links navbar-links ">
+              <li className="nav-item liitem">
+                <a className="item navhome">Home</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item liitem">
                 <a className="item navproduct ">Product</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item liitem">
                 <a className="item navservice">Services</a>
               </li>
-              <li><button className="btn bg-transparent signup">SignUp/Login</button></li>
             </ul>
+              </div>
+              <div className="col-xl-2">
+                <ul className="navbar-links ">
+              <li className="navsignup"><button className="btn bg-transparent signup">SIGNUP</button></li>
+                </ul>
+              </div>
+            </div>
+
+          
+
           </div>
         </div>
       </div>

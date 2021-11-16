@@ -37,11 +37,47 @@
 }
 
 .links{
-/* float: right; */
-margin-right: 1000px;
+float: right;
+margin-left: 1000px;
 }
 
 .signup{
     border: 1px solid white;
     color: white;
+    margin-top: 11PX;
+
+
 }
+.signup:hover{
+    color: red;
+}
+
+.navsignup{
+    float:left;
+
+    margin-right: 1200px;
+}
+
+.liitem {
+    display: inline-block;
+    position: relative;
+    color: red;
+  }
+  
+  .liitem:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .liitem:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
