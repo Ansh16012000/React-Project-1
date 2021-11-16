@@ -38,6 +38,7 @@ export const NavBar = () => {
               <li className="nav-item">
                 <a className="item navservice">Services</a>
               </li>
+              <li><button className="btn bg-transparent signup">SignUp/Login</button></li>
             </ul>
           </div>
         </div>
