@@ -24,6 +24,9 @@
     color: white;
     font-size: 23px;
 }
+.item:hover{
+    color: red;
+}
 .finger{
     /* padding-top:10px; */
     margin-bottom: 0;
@@ -78,6 +81,7 @@ margin-left: 1000px;
   }
   
   .liitem:hover:after {
+      /* background-color: black; */
     transform: scaleX(1);
     transform-origin: bottom left;
   }
